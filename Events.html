@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Events | Clean Slate</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <a href="index.html" class="logo-container">
+            <img src="images/logo.png" alt="Clean Slate logo">
+        </a>
+
+<nav class="navbar">
+    <div class="nav-links">
+        <a href="about.html">About Us</a>
+        <a href="Waystohelp.html">Ways to Help</a>
+        <a href="events.html">Event Calendar</a>
+        <a href="nominate.html">Nominate a Property</a>
+        <a href="Merch.html">Merchandise</a>
+    </div>
+</nav>
+
+    </header>
+
+<section class="calendar-section">
+
+    <div class="calendar-controls">
+
+        <button
+            class="calendar-arrow"
+            id="previous-month"
+            type="button"
+            aria-label="View previous month"
+        >
+            ←
+        </button>
+
+        <div>
+            <p class="eyebrow">Event Calendar</p>
+            <h2 id="calendar-month-title">August 2026</h2>
+        </div>
+
+        <button
+            class="calendar-arrow"
+            id="next-month"
+            type="button"
+            aria-label="View next month"
+        >
+            →
+        </button>
+
+    </div>
+
+    <div class="calendar-key">
+        <span class="key-dot"></span>
+        Cleanup event
+    </div>
+
+    <div class="calendar-slider">
+
+        <!-- August -->
+        <div
+            class="calendar-month active"
+            data-month-name="August 2026"
+        >
+
+            <div class="calendar">
+
+                <div class="calendar-day-name">Sunday</div>
+                <div class="calendar-day-name">Monday</div>
+                <div class="calendar-day-name">Tuesday</div>
+                <div class="calendar-day-name">Wednesday</div>
+                <div class="calendar-day-name">Thursday</div>
+                <div class="calendar-day-name">Friday</div>
+                <div class="calendar-day-name">Saturday</div>
+
+                <div class="calendar-day empty"></div>
+                <div class="calendar-day empty"></div>
+                <div class="calendar-day empty"></div>
+                <div class="calendar-day empty"></div>
+                <div class="calendar-day empty"></div>
+
+                <div class="calendar-day">
+                    <span class="date-number">1</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">2</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">3</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">4</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">5</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">6</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">7</span>
+                </div>
+
+                <div class="calendar-day event-day">
+                    <span class="date-number">8</span>
+
+                    <a href="#event-one" class="calendar-event">
+                        Commercial Cleanup
+                    </a>
+                </div>
+
+                                <div class="calendar-day">
+                    <span class="date-number">9</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">10</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">11</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">12</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">13</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">14</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">15</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">16</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">17</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">18</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">19</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">20</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">21</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">22</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">23</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">24</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">25</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">26</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">27</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">28</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">29</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">30</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- September -->
+        <div
+            class="calendar-month"
+            data-month-name="September 2026"
+        >
+
+            <div class="calendar">
+
+                <div class="calendar-day-name">Sunday</div>
+                <div class="calendar-day-name">Monday</div>
+                <div class="calendar-day-name">Tuesday</div>
+                <div class="calendar-day-name">Wednesday</div>
+                <div class="calendar-day-name">Thursday</div>
+                <div class="calendar-day-name">Friday</div>
+                <div class="calendar-day-name">Saturday</div>
+
+                <div class="calendar-day empty"></div>
+                <div class="calendar-day empty"></div>
+
+                <div class="calendar-day">
+                    <span class="date-number">1</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">2</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">3</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">4</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">5</span>
+                </div>
+                
+                <div class="calendar-day">
+                    <span class="date-number">6</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">7</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">8</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">9</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">10</span>  
+                </div>   
+
+                <div class="calendar-day">
+                    <span class="date-number">11</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">12</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">13</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">14</span>     
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">15</span>     
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">16</span>     
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">17</span>     
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">18</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">19</span>     
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">20</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">21</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">22</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">23</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">24</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">25</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">26</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">27</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">28</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">29</span>
+                </div>
+
+                <div class="calendar-day">
+                    <span class="date-number">30</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
